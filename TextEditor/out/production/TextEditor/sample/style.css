@@ -1,0 +1,51 @@
+* {
+    -fx-text-fill: white;
+}
+
+.text-area .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+.text-area .scroll-bar:horizontal {
+    -fx-pref-height: 1;
+    -fx-opacity: 0;
+}
+
+#errorLog .scroll-pane {
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+.text-area {
+    -fx-text-fill: white;
+    -fx-control-inner-background: #383838;
+    -fx-background-color: -fx-control-inner-background;
+    -fx-background-insets: 10;
+    -fx-padding: 1 3 1 3;
+}
+
+.button {
+    -fx-font: 16px "Consolas";
+    -fx-padding: 10;
+    -fx-background-color: #383838;
+}
+
+.text-area:focused {
+    -fx-focus-color: black;
+    -fx-text-box-border: black;
+}
+
+.text-field {
+    -fx-font: 16px "Consolas";
+    -fx-padding: 10;
+    -fx-background-color: #383838;
+}
+
+.text-field:focused {
+    -fx-focus-color: transparent;
+    -fx-text-box-border: transparent;
+}
+
+.window {
+    -fx-background-color: #383838;
+}
