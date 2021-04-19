@@ -17,13 +17,13 @@ import java.io.File;
 
 public class Main extends Application {
     private TextArea textArea;
-    private TextArea lineCounter = new TextArea();
+    private final TextArea lineCounter = new TextArea();
     private Label lines;
     private Label words;
     private Label nouns;
     private Label chars;
     private File file = null;
-    private FileHandler fh = new FileHandler();
+    private final FileHandler fh = new FileHandler();
     private int amtLines;
 
     @Override
