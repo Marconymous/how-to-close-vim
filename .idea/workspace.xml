@@ -33,7 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-grundlagen/marc_stuff" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16557162" />
     <property name="project.structure.side.proportion" value="0.15174508" />
@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618681217534</updated>
       <workItem from="1618681229666" duration="744000" />
-      <workItem from="1618814892094" duration="48000" />
+      <workItem from="1618814892094" duration="340000" />
     </task>
     <servers />
   </component>
